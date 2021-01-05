@@ -75,3 +75,12 @@ p{
 footer p{
     text-align: center;
 }
+.drmp{
+    max-width: 90%;
+}
+.exp-h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
