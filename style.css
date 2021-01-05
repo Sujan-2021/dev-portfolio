@@ -7,19 +7,23 @@ h1{
     font-size: 50px;
 }
 section{
-    height: 500px;
+    height: 600px;
+}
+p{
+    color: dimgray;
 }
 .sujan{
     color: orange;
 }
-.first-part{
+.half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    
 }
 
-.first-part img{
+.half-width img{
     max-width: 100%;
 }
 .top-banner{
@@ -35,5 +39,39 @@ section{
     border-radius: 10px;
     font-weight: 700;
     text-transform: uppercase;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
     
+
+}
+.single-sp{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 60%;
+    
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #ffa07a, #ff6347) ;
+    border-image-slice: 1;
+    background-color: white;
+    
+
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #0000ff, #00ffff);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
 }
